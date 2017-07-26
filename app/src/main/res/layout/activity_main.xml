@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alick.align_textview_demo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <com.alick.aligntextview.view.AlignTextView
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="15dp"
+            app:suffixMode="full_width"
+            app:text="颜色：" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="深红色"
+            android:textColor="#7b7b7b"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+
+        <com.alick.aligntextview.view.AlignTextView
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="15dp"
+            app:suffixMode="full_width"
+            app:text="电商价：" />
+
+        <TextView
+            android:id="@+id/tv_jd_sku_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15元"
+            android:textColor="#7b7b7b"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <com.alick.aligntextview.view.AlignTextView
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="15dp"
+            app:suffixMode="full_width"
+            app:text="产品类型：" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电子产品"
+            android:textColor="#7b7b7b"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <com.alick.aligntextview.view.AlignTextView
+            android:layout_width="@dimen/label_width"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="15dp"
+            app:suffixMode="full_width"
+            app:text="适用的人群：" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成年人"
+            android:textColor="#7b7b7b"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>
